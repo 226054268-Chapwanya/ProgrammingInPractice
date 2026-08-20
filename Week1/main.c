@@ -17,8 +17,7 @@ printf("Enter Population: ");
 scanf("%d", &population); 
 printf("\n---------------------------------\n"); 
 printf("Municipality : %s\n", municipality); 
-printf("Mayor       
- : %s\n", mayor); 
+printf("Mayor       : %s\n", mayor); 
 printf("Population   : %d\n", population); 
 return 0; 
 } 
