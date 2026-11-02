@@ -11,7 +11,7 @@ This project is the Week 9 modular version of the MFMS (Management and Financial
 | File | Description |
 |---|---|
 | `main.c` | Controls the main menu and application flow. |
-| `employees.c / employees.h` | Contains employee-related functions. |
+| `employee.c / employee.h` | Contains employee-related functions. |
 | `budget.c / budget.h` | Contains budget-related functions. |
 | `utilities.c / utilities.h` | Contains reusable input and helper functions. |
 | `reports.c / reports.h` | Contains reporting functions. |
@@ -22,7 +22,7 @@ Compile each source file separately:
 
 ```bash
 gcc -std=c99 -Wall -Wextra -pedantic -c main.c
-gcc -std=c99 -Wall -Wextra -pedantic -c employees.c
+gcc -std=c99 -Wall -Wextra -pedantic -c employee.c
 gcc -std=c99 -Wall -Wextra -pedantic -c budget.c
 gcc -std=c99 -Wall -Wextra -pedantic -c utilities.c
 gcc -std=c99 -Wall -Wextra -pedantic -c reports.c
@@ -31,7 +31,7 @@ gcc -std=c99 -Wall -Wextra -pedantic -c reports.c
 Link all object files:
 
 ```bash
-gcc main.o employees.o budget.o utilities.o reports.o -o mfms
+gcc main.o employee.o budget.o utilities.o reports.o -o mfms
 ```
 
 Run the application:
